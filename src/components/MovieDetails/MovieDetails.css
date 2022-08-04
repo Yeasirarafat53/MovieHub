@@ -1,0 +1,43 @@
+.movie-details {
+  display: flex;
+  max-width: 1200px;
+  margin-top: 100px;
+}
+
+.movie-content {
+  padding-left: 2rem;
+}
+.movie-content > * {
+  margin-bottom: 1rem;
+}
+
+
+.poster img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  width: 400px;
+  
+}
+.genres {
+  gap: 10px;
+}
+.movie-content .genres__item {
+  border: 2px solid rgb(1, 1, 1);
+  border-radius: 30px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  gap: 10px;
+  margin-right: 10px;
+}
+.book-now {
+  padding: 10px;
+  border: none;
+  font-weight: 600;
+  background-color: #f52c2c;
+  color: white;
+  cursor: pointer;
+  border-radius: 15px;
+}
